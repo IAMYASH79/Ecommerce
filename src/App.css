@@ -33,7 +33,7 @@ button {
 .hero {
   display: flex;
   align-items: center;
-  height: calc(100vh-72px);
+  height: calc(100vh-80px);
 }
 
 .hero h1 {
@@ -49,4 +49,10 @@ button {
 .brand-icons {
   display: flex;
   gap: 40px;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  color: var(--gray);
+  border: 1px solid grey;
 }
